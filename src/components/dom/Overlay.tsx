@@ -29,36 +29,36 @@ export default function Overlay() {
       </div>
 
       {/* Section 2: Feature Text 1 (Right side) */}
-      <div className="fixed top-1/2 right-[10%] -translate-y-1/2 w-[400px] text-left flex flex-col gap-6">
+      <div className="fixed top-1/2 left-0 md:left-auto right-0 md:right-[10%] -translate-y-1/2 w-full md:w-[400px] px-8 md:px-0 text-center md:text-left flex flex-col gap-6">
         <div className="feature-text-1 opacity-0 translate-x-20">
-          <h2 className="text-6xl mb-4 text-white font-playfair">
+          <h2 className="text-4xl md:text-6xl mb-4 text-white font-playfair">
             100% Organic.
           </h2>
-          <p className="text-2xl leading-relaxed text-neutral-400 font-playfair">
+          <p className="text-xl md:text-2xl leading-relaxed text-neutral-400 font-playfair">
             Sourced from nature's finest essential oils.
           </p>
         </div>
       </div>
 
       {/* Section 3: Feature Text 2 (Left side) */}
-      <div className="fixed top-1/2 left-[10%] -translate-y-1/2 w-[400px] text-right flex flex-col gap-6">
+      <div className="fixed top-1/2 left-0 md:left-[10%] right-0 md:right-auto -translate-y-1/2 w-full md:w-[400px] px-8 md:px-0 text-center md:text-right flex flex-col gap-6">
         <div className="feature-text-2 opacity-0 -translate-x-20">
-          <h2 className="text-6xl mb-4 text-white font-playfair">
+          <h2 className="text-4xl md:text-6xl mb-4 text-white font-playfair">
             Clean & Pure.
           </h2>
-          <p className="text-2xl leading-relaxed text-neutral-400 font-playfair">
+          <p className="text-xl md:text-2xl leading-relaxed text-neutral-400 font-playfair">
             Free from harmful chemicals and phthalates.
           </p>
         </div>
       </div>
 
       {/* Section 4: Feature Text 3 (Right side again) */}
-      <div className="fixed top-1/2 right-[10%] -translate-y-1/2 w-[400px] text-left flex flex-col gap-6">
+      <div className="fixed top-1/2 left-0 md:left-auto right-0 md:right-[10%] -translate-y-1/2 w-full md:w-[400px] px-8 md:px-0 text-center md:text-left flex flex-col gap-6">
         <div className="feature-text-3 opacity-0 translate-x-20">
-          <h2 className="text-6xl mb-4 text-white font-playfair">
+          <h2 className="text-4xl md:text-6xl mb-4 text-white font-playfair">
             Lasting Impression.
           </h2>
-          <p className="text-2xl leading-relaxed text-neutral-400 font-playfair">
+          <p className="text-xl md:text-2xl leading-relaxed text-neutral-400 font-playfair">
             High oil concentration for an enduring scent.
           </p>
         </div>
